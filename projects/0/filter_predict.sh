@@ -9,3 +9,5 @@ OUTPUT=$3
 MAPPER=$4
 REDUCER=$5
 $HADOOP_EXE jar $HADOOP_STREAM_JAR  -files $FILES -input $INPUT -output $OUTPUT -mapper "$MAPPER" -reducer "$REDUCER"
+
+
